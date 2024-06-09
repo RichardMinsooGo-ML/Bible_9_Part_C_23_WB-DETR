@@ -66,7 +66,7 @@ def get_args_parser(add_help=True):
 
     # dataset parameters
     parser.add_argument('--dataset_file', default='coco')
-    parser.add_argument('--coco_path', default='../coco', type=str)
+    parser.add_argument('--coco_path', default='dataset/COCO', type=str)
     parser.add_argument('--coco_panoptic_path', type=str)
     parser.add_argument('--remove_difficult', action='store_true')
 
